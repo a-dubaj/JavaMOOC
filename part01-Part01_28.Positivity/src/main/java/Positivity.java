@@ -7,5 +7,11 @@ public class Positivity {
         Scanner scan = new Scanner(System.in);
 
         // Write your program here
+        int number = Integer.valueOf(scan.nextLine());
+        if (number > 0) {
+            System.out.println("The number is not positive.");
+        } else {
+            System.out.println("The number is positive.");
+        }
     }
 }
