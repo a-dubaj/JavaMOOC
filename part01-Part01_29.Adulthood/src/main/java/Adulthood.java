@@ -9,7 +9,7 @@ public class Adulthood {
         // Write your program here
         System.out.println("How old are you?");
         int value = Integer.valueOf(scan.nextLine());
-        if (value < 18){
+        if (value < 18) {
             System.out.println("You are not an adult.");
         } else {
             System.out.println("You are an adult.");
