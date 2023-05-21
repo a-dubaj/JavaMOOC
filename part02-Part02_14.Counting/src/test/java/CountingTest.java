@@ -2,8 +2,11 @@
 import fi.helsinki.cs.tmc.edutestutils.MockStdio;
 import fi.helsinki.cs.tmc.edutestutils.Points;
 import fi.helsinki.cs.tmc.edutestutils.ReflectionUtils;
+
 import java.lang.reflect.Method;
+
 import org.junit.*;
+
 import static org.junit.Assert.*;
 
 @Points("02-14")
