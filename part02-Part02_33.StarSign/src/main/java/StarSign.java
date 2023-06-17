@@ -1,4 +1,3 @@
-
 public class StarSign {
 
     public static void main(String[] args) {
